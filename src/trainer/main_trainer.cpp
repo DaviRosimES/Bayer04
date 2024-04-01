@@ -87,27 +87,6 @@ main( int argc, char ** argv )
     client = agent.createConsoleClient();
     agent.setClient( client );
 
-    /*
-      You should add your copyright message here.
-     */
-    // std::cout << "*****************************************************************\n"
-    //           << " This program is modified by <Team Name>\n"
-    //           << " Copyright 20xx. <Your name>.\n"
-    //           << " <Affiliation>\n"
-    //           << " All rights reserved.\n"
-    //           << "*****************************************************************\n"
-    //           << std::flush;
-
-    /*
-      Do NOT remove the following copyright notice!
-     */
-    std::cout << "*****************************************************************\n"
-              << " This program is based on agent2d created by Hidehisa Akiyama.\n"
-              << " Copyright 2006 - 2011. Hidehisa Akiyama.\n"
-              << " All rights reserved.\n"
-              << "*****************************************************************\n"
-              << std::flush;
-
     client->run( &agent );
 
     return EXIT_SUCCESS;
