@@ -1,7 +1,6 @@
-# HELIOS Base
-[![GitHub license](https://img.shields.io/github/license/helios-base/helios-base)](https://github.com/helios-base/helios-base/blob/master/LISENCE)
+# Bayer 04
 
-helios-base is a sample team for the RoboCup Soccer 2D Simulator.
+Bayer 04  is a HELIOS_base based team for the RoboCup Soccer 2D Simulator.
 All programs can work with rcssserver-16.
 
 - The RoboCup Soccer Simulator: http://github.com/rcsoccersim/
@@ -9,7 +8,7 @@ All programs can work with rcssserver-16.
 
 ## Quick Start
 
-The latest helios-base depends on the following libraries:
+The latest Bayer04 depends on the following libraries:
  - Boost 1.38 or later https://www.boost.org/
  - The latest librcsc https://github.com/helios-base/librcsc
 
@@ -27,7 +26,7 @@ To build binaries, execute commands from the root of source directory:
 make
 ```
 
-To start the agent2d team, invoke the start script in `src` directory.
+To start the team, invoke the start script in `src` directory.
 ```
 ./start.sh
 ```
